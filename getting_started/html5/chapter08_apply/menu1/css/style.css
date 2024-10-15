@@ -1,0 +1,41 @@
+.menu {
+    width: 180px;
+    top: 100px;
+    text-align: center;
+  }
+  .nav > li {
+    float: left;
+    width: 180px;
+  }
+  .nav > li > a {
+    height: 40px;
+    width: 180px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #222328;
+    color: #ffffff;
+  }
+  .nav > li > a:hover {
+    background-color: #930930;
+    color: #ffff00;
+  }
+  .submenu {
+    float: left;
+    width: 100%;
+    display: none;
+  }
+  .submenu > li > a {
+    height: 40px;
+    width: 180px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #cccccc;
+    color: #ffffff;
+  }
+  .submenu > li > a:hover {
+    background-color: #999999;
+    color: #ffff00;
+  }
+  
