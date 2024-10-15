@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS3의 적용예 1</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet1.css">
+        <link rel="stylesheet" href="/w3css/4/w3.css">
+    </head>
+
+    <body>
+        <div class="container wrapper">
+            <div id="top">
+                <h1>CSS3의 적용예 1</h1>
+                <p>Use the menu to select different Stylesheets</p>
+            </div>
+            <div class="wrapper">
+                <div id="menubar">
+                    <ul id="menulist">
+                        <li class="menuitem">Stylesheet 1
+                        <li class="menuitem">Stylesheet 2
+                        <li class="menuitem">Stylesheet 3
+                        <li class="menuitem">Stylesheet 4
+                        <li class="menuitem">No Stylesheet
+                    </ul>
+                </div>
+                <div id="main">
+                    <h1>What is CSS?</h1>
+                    <p> CSS stands for Cascading Style Sheets
+                        CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+                        CSS saves a lot of work. It can control the layout of multiple web pages all at once
+                        External stylesheets are stored in CSS files<br>
+                        <h3>다음 메뉴 중 선택하세요!</h3>
+                        <a href="CSS1.html">Stylesheet1</a>,
+                        <a href="CSS2.html">Stylesheet2</a>,
+                        <a href="CSS3.html">Stylesheet3</a>,
+                        <a href="CSS4.html">Stylesheet4</a>.
+                    </p>
+                    <h2>CSS Syntax</h2>
+                    <img src="CSS-Syntax.gif"><br>
+                    <pre>
+         The selector points to the HTML element you want to style.
+         The declaration block contains one or more declarations separated by semicolons.
+         Each declaration includes a CSS property name and a value, separated by a colon.
+         Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</pre>
+                    <p>
+                        <table class="w3-table-all notranslate">
+                        <tr>
+                          <th style="width:20%">Selector</th>
+                          <th style="width:20%">Example</th>
+                          <th>Example description</th>
+                        </tr>
+                        <tr>
+                          <td>.class</td>
+                          <td class="notranslate">.intro</td>
+                          <td>Selects all elements with class=&quot;intro&quot;</td>
+                        </tr>
+                        <tr>
+                          <td>#id</td>
+                          <td class="notranslate">#firstname</td>
+                          <td>Selects the element with id=&quot;firstname&quot;</td>
+                        </tr>
+                        <tr>
+                          <td>*</td>
+                          <td class="notranslate">*</td>
+                          <td>Selects all elements</td>
+                        </tr>
+                        <tr>
+                          <td>element</td>
+                          <td class="notranslate">p</td>
+                          <td>Selects all &lt;p&gt; elements</td>
+                        </tr>
+                        <tr>
+                          <td>element,element,..</td>
+                          <td class="notranslate">div, p</td>
+                          <td>Selects all &lt;div&gt; elements and all &lt;p&gt; elements</td>
+                        </tr>
+                      </table>
+                <h2>No Styles</h2>
+                <p>This page uses DIV elements to group different sections of the HTML page.
+                    Click here to see how the page looks like with no stylesheet:<br>
+                    <a href="css.html">No Stylesheet</a>.</p>
+            </div>
+            <div id="sidebar">
+                <h3>Side-Bar</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                    nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            </div>
+            <div id="bottom">
+                <h3>Footer</h3>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
+                minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+                vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla
+                facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
+                luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
+
