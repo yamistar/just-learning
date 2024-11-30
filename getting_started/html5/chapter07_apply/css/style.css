@@ -29,7 +29,7 @@ body {
 
 .wrap {
     width: 1200px;
-    margin: 0 auto; //*중앙정렬*//
+    margin: 0 auto; /*중앙정렬*/
     background: #111
 }
 
